@@ -16,3 +16,14 @@ For now the tool doesn't support any arguments and can be ran normally
 This will execute the binary targeting the Recall folder for the current user and dumping **ALL** the data inside the database and ImageStore folder.
 
 In the future I intend to add CLI arguments that will allow to manually specify the username and a range of timestamps to include.
+
+## Results
+After running this script you'll be able access the dumped text and images from the dump folder name with the `<TIMESTAMP>_Recall_Extraction` format.
+
+- Text file
+
+![](https://github.com/otterpwn/cppRecall/blob/main/assets/results_txt.png)
+
+- Image folder
+
+![](https://github.com/otterpwn/cppRecall/blob/main/assets/results_image.png)
