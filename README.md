@@ -27,3 +27,7 @@ After running this script you'll be able access the dumped text and images from 
 - Image folder
 
 ![](https://github.com/otterpwn/cppRecall/blob/main/assets/results_image.png)
+
+Since the binary is not performing any inherently malicious tasks but it's just reading a single unencrypted file it probably won't need any obfuscation or packing when going up against more common AV solutions.
+
+![](https://github.com/otterpwn/cppRecall/blob/main/assets/vt_results.png)
